@@ -1,0 +1,7 @@
+{
+  "name": "Éclat AI - Agence de Croissance Esthétique",
+  "description": "Systèmes IA premium pour cliniques esthétiques de luxe.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

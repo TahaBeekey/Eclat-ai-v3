@@ -1,0 +1,33 @@
+/* Particle Drift Animation */
+@keyframes particle-drift {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(10px, -15px) rotate(90deg);
+  }
+  50% {
+    transform: translate(-5px, -25px) rotate(180deg);
+  }
+  75% {
+    transform: translate(-15px, -10px) rotate(270deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(360deg);
+  }
+}
+
+/* Shimmer animation for buttons */
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 2s infinite;
+}
+
